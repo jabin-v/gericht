@@ -1,0 +1,9 @@
+.app__laurels_awards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}

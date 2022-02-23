@@ -1,0 +1,52 @@
+.app__chef-content{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.app__chef_quote{
+    display: flex;
+    align-items: flex-end;
+}
+.app__chef_quote p{
+    margin-left: 1rem;
+    align-self: flex-start;
+}
+.app__chef_sign{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    flex-direction: column;
+}
+.app__chef_sign p:first-child {
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-golden);
+}
+.app__chef_sign img {
+    width: 250px;
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__chef_sign img {
+        width: 370px;
+    }
+}
+/* @media screen and (max-width: 1150px) {
+    .app__chef_sign img {
+        width: 80%;
+    }
+    
+} */
+
+@media screen and (max-width: 450px) {
+    .app__chef_sign img {
+        width: 80%;
+    }
+    
+}
